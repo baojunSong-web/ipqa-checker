@@ -30,4 +30,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ipqa-checker-exe
-          path: dist/ipqa_checker.exe
+          path: dist/ipqa_checker_v3.exe

@@ -24,7 +24,7 @@ jobs:
       
       - name: Build EXE
         run: |
-          pyinstaller --onefile --windowed --name ipqa_checker ipqa_checker_v2.py
+          pyinstaller --onefile --windowed --name ipqa_checker_v3 ipqa_checker_v3.py
       
       - name: Upload EXE
         uses: actions/upload-artifact@v4
